@@ -19,7 +19,6 @@ char *_strdup(const char *original_string)
 	}
 
 	char *buffer = malloc(length_of_original_string + 1);
-
 	if ( buffer != NULL)
 	{
 		while (*original_string != '\0')

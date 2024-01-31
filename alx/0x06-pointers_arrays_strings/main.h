@@ -5,6 +5,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
@@ -17,6 +19,7 @@ char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
 char *_strdup(const char *original_string);
+int _printf(char *placeholder, ...);
 
 
 #endif 
